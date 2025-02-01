@@ -8,10 +8,11 @@ import './index.css'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>,
+    element: <Home></Home>,
   },
 ]);
 import App from './App.jsx'
+import Home from './components/Home.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
